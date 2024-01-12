@@ -1,0 +1,63 @@
+.showcase{
+    display: flex;
+    margin-top: 10rem;
+    width: 80%;
+    
+   
+}
+
+.segzy {
+    width: 500px;
+    height: 500px;
+    border-radius: 100%;
+    margin-left: 5rem;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    
+    
+}
+
+.social a {
+    color: #fff;
+    margin-left: 1rem;
+}
+
+
+
+.name {
+    font-size: 5rem;
+    font-weight: bold;
+    max-width: 100%;
+    color: white;
+}
+
+.skills {
+    max-width: 100%;
+    font-size: 2rem;
+}
+
+.info {
+    max-width: 100%;
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 576px) {
+    .showcase{
+        max-width: 100%;
+        margin-top: 5px;
+    }
+    .segzy {
+        display: none;
+    }
+
+    .details {
+        margin-left: 3rem;
+        width: 100%;
+        
+        
+    }
+}

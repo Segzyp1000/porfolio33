@@ -1,0 +1,43 @@
+.project {
+    max-width: 30%;
+}
+
+
+.pro{
+    color: white;
+    margin-top: 20px
+}
+
+.task {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 80%;
+    margin-left: 3rem;
+    margin-top: 20px;
+    gap: 20px; 
+}
+
+.paragraph {
+    color: white;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 576px) {
+    .task {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 40%;
+    margin-left: 2rem;
+    }
+
+
+}
+
+@media screen and (min-width: 768px)  and (max-width: 1024px) {
+    .task {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+   
+    }
+
+} 

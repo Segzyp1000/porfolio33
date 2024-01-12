@@ -1,0 +1,39 @@
+.techskill {
+    background-color: #fff;
+    color: black;
+    max-width: 100%;
+    margin-top: 50px;
+    
+   
+}
+
+header {
+    font-weight: bold;
+    color: #683396;
+    font-size: 30px;
+    margin-left: 2rem;
+}
+
+h1 {
+    color: blue;
+}
+
+.stack {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 8rem;
+    max-width: 80%;
+}
+
+
+
+@media screen and (max-width: 576px) {
+    .stack {
+        display: grid;
+        grid-template-columns: 1fr
+}
+.techskill {
+    max-width: 100%;
+}
+}
+

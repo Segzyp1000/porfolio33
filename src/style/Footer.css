@@ -1,0 +1,26 @@
+
+.footer {
+    background: #eee;
+    padding: 2rem 1rem;
+    text-align: center;
+  
+  }
+  
+  .social-icons a {
+    margin: 0 0.5rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+    
+    
+  }
+  
+  .copyright,
+  .terms-of-use {
+    margin-top: 1rem;
+    color: black;
+   
+    
+    
+  }
+  
+  
