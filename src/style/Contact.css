@@ -52,6 +52,10 @@
     background-color: #0056b3;
   }
 
+  .error {
+    color: red;
+  }
+
   @media screen and (max-width: 576px) {
     .contact {
         display: grid;
