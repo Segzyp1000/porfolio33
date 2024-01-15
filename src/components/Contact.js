@@ -9,7 +9,7 @@ const Contact = () => {
       <p>I would love to hear about your project and how I could help. Please fill the form, and I'll get back to you as soon as possible.</p>
     </div>
     <div className='formf'>
-    <form action="#" method="post">
+    <form action="https://formspree.io/f/mjvnkeqy" method="post">
     <label for="name">Name:</label>
     <input type="text" id="name" name="name" required />
     <label for="name">Email:</label>
