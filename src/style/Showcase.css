@@ -1,16 +1,22 @@
 .showcase{
     display: flex;
-    margin-top: 10rem;
     width: 80%;
+    color: #72ffff;;
+    font-family: 'Space Grotesk', sans-serif;
+    margin-top: 1rem;
+    margin-left: 1rem;
     
    
 }
 
 .segzy {
-    width: 500px;
-    height: 500px;
-    border-radius: 100%;
+    width: 400px;
+    height: 400px;
     margin-left: 5rem;
+}
+
+.skills-info {
+    margin-top: 4rem;
 }
 
 .details {
@@ -26,18 +32,9 @@
     margin-left: 1rem;
 }
 
-
-
-.name {
-    font-size: 5rem;
-    font-weight: bold;
-    max-width: 100%;
-    color: white;
-}
-
 .skills {
     max-width: 100%;
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 .info {
@@ -45,19 +42,42 @@
     font-size: 1rem;
 }
 
+.techstack {
+    margin-top: 70px;
+}
+
+.skillz {
+    position: absolute;
+    left: 0;
+    display: flex;
+}
+
+li {
+    margin-left: 5px;
+}
+
 @media screen and (max-width: 576px) {
     .showcase{
         max-width: 100%;
-        margin-top: 5px;
-    }
-    .segzy {
-        display: none;
+        display: flex;
+        flex-direction: column;
+        gap: 70px;
+        margin-left: 2px;
     }
 
+    .segzy {
+        width: 300px;
+        height: 300px;
+        margin-left: 4rem;
+    }
     .details {
         margin-left: 3rem;
         width: 100%;
         
         
+    }
+
+    .skillz {
+        margin-left: 1px;
     }
 }

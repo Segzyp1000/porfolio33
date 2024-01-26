@@ -13,7 +13,7 @@ const Footer = () => {
         <a href='https://github.com/Segzyp1000'><i className='fab fa-github'></i></a>
       </div>
       <div className="copyright">
-        <p>© 2024 My Portfolio </p>
+        <p>Segun's Portfolio</p>
       </div>
     </footer>
   );

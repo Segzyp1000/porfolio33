@@ -1,24 +1,24 @@
 .contact {
-    font-family: 'Arial', sans-serif;
+  font-family: 'Space Grotesk', sans-serif;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    background-color: #fff;
-    color: #000;
     max-width: 100%;
+    margin-top: 40px;
   }
 
 .infopart {
     margin-left: 2rem;
     width: 70%;
     margin-top: 70px;
+    color: #72ffff;;
 }
   
   form {
-    background-color: #000;
+    background-color: #ccc;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-top: 20px;
+    margin-top: 10px;
     width: 50%;
     margin-bottom: 20px;
   }
@@ -27,7 +27,7 @@
     display: block;
     margin-bottom: 8px;
     font-weight: bold;
-    color: #fff;
+    color: #000;
   }
 
   input,

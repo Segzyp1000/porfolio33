@@ -6,9 +6,9 @@ import '../style/Project.css';
 
 const Project = () => {
   return (
-    <div className='project' id="projects">
-    <div>
-      <header className='pro'>Projects</header>
+    <div className='project'>
+    <div className='pro'>
+      <h2>Projects</h2>
     </div>
      <div className='task'>
      <div className='assignments1'>

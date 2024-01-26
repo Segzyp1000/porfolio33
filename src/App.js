@@ -1,7 +1,7 @@
 import './App.css';
 import Navbar from './components/Navbar';
 import Showcase from './components/Showcase';
-import TechSkills from './components/TechSkills';
+
 import Project from './components/Project';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
@@ -17,9 +17,7 @@ function App() {
         <div  className='show'>
         <Showcase />
         </div>
-        <div className='tech'>
-        <TechSkills />
-        </div>
+        
         <div className='work'>
           <Project />
         </div>

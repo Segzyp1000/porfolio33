@@ -14,18 +14,15 @@
   order: 1;
 }
 
-.tech {
-  order: 2;
-}
 
 .work {
-  order: 3;
+  order: 2;
 }
  
 .halla {
-  order: 4;
+  order: 3;
 }
 
 .end {
-  order:5;
+  order:4;
 }

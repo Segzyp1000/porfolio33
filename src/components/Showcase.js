@@ -1,27 +1,33 @@
 import React from 'react'
-import Segz from '../myimage/Segz.JPG'
 import '../style/Showcase.css';
 
 const Showcase = () => {
   return (
     <div className='showcase' id='home'>
         <div className='details'>
-      <h1 className='name'>
-        I'm Segun
-      </h1>
-        <h3 className='skills'>A Frond-End Developer</h3>
+          <div className='skills-info'>
+        <h2 className='skills'>Frond-End Developer</h2>
         <h5 className='info'>I am Passionate About Building Accessible,responsive and user-friendly Web Apps That Users Love</h5>
-        <div className="social">
-        <a href="https://web.facebook.com/segun.olowo"><i className="fab fa-facebook"></i></a>
-        <a href="https://twitter.com/segzyp1000"><i className="fab fa-twitter"></i></a>
-        <a href="https://www.instagram.com/segzyp1000/"><i className="fab fa-instagram"></i></a>
-        <a href="https://www.linkedin.com/in/segun-olowoyeye-04909b76/"><i className="fab fa-linkedin"></i></a>
-        <a href='https://wa.link/sntbnx'><i className="fab fa-whatsapp"></i></a>
-        <a href='https://github.com/Segzyp1000'><i className='fab fa-github'></i></a>
-      </div>
+
+        <div className='stack'>
+          <div className='techstack'>
+          <h2>TechStacks</h2>
+          </div>
+          <ul className='skillssets'>
+            <div className='skillz'>
+          <li><button>HTML</button></li>
+          <li><button>CSS</button></li>
+          <li><button>JavaScript</button></li>
+          <li><button>Git & Github</button></li>
+          <li><button>Bootstrap</button></li>
+          <li><button>React</button></li>
+          </div>
+          </ul>
         </div>
-        <img src={Segz} className='segzy' alt=''></img>
-    </div>
+        </div>
+      </div>
+        <img src='segx.jpg' className='segzy' alt='' />
+    </div> 
   )
 }
 

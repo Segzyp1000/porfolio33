@@ -1,6 +1,6 @@
 
 .footer {
-    background: #eee;
+  background-color: hsl(0, 71%, 7%);
     padding: 2rem 1rem;
     text-align: center;
   
@@ -10,6 +10,7 @@
     margin: 0 0.5rem;
     text-decoration: none;
     font-size: 1.5rem;
+    color: #fff;
     
     
   }
@@ -17,7 +18,7 @@
   .copyright,
   .terms-of-use {
     margin-top: 1rem;
-    color: black;
+    color: #fff;
    
     
     
