@@ -1,10 +1,18 @@
-import React from 'react'
+import React, {useEffect, useRef} from 'react'
 import '../style/Showcase.css';
 import TechSkills from './TechSkills';
 
-const Showcase = () => {
+
+  const Showcase = () => {
+    const showcaseRef = useRef(null);
+  
+    useEffect(() => {
+      const showcaseElement = showcaseRef.current;
+      showcaseElement.classList.add('ease-in');
+    }, []);
+
   return (
-    <div className='showcase'>
+    <div ref={showcaseRef} className='showcase'>
         <div className='flexxy'>
         <div className='skillset'>
         <h2 className='skills'>Frond-End Developer</h2>

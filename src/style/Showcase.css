@@ -4,10 +4,23 @@
     color: #72ffff;
     font-family: 'Space Grotesk', sans-serif;
     margin-top: 3rem;
-    margin-left: 2rem;
-    
-   
+    margin-left: 2rem; 
+    opacity: 0;  
 }
+
+.ease-in {
+    animation: ease-in-animation 5s ease-in-out forwards;
+  }
+  
+  @keyframes ease-in-animation {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
 
 .segzy {
     width: 400px;
