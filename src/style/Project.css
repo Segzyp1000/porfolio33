@@ -2,22 +2,18 @@
     width: 100%; /* Take up full width of the screen */
     padding: 10px;
     font-family: 'Space Grotesk', sans-serif;
-    background: #fff;
+    background-color: #fff;
     color: #3d099b;
     margin-top: 10rem;
     margin-left: auto; /* Center the component horizontally */
     margin-right: auto;
 }
- .pro{
-    margin-left: 2rem;
-    margin-bottom: 1.25rem;
-}
+
 
 .task {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    padding: 10px;
     margin-left: 2rem;
     
 }
@@ -26,56 +22,40 @@
     display: flex;
     gap: 30px;
     margin-left: 5rem;
-}
-
-.assignments {
-    max-width: 100%;
+    
 }
 
 .paragraph {
     font-weight: bold;
-
-    
 }
+
+
 
  @media screen and (max-width: 576px) {
     .project {
-        margin-top: 15rem;
-        margin-left: 0; /* Remove left margin to align with edge of the screen */
-        margin-right: 0;
-    }
-    .task {
         width: 100%;
-        margin-top: 3rem;
+        margin-top: 15rem;
+        margin-left: 0;
+        margin-right: 0;
+        background: inherit;
+        color: inherit;
     }
+
     .plot {
         display: flex;
         flex-direction: column;
-        margin-left: 1.3rem;
-
-        
-    }
-    .pro {
-        font-weight: bold;
-        font-size: 25px;
     }
 
-    .paragraph {
-        width: 100%;
-    
-        
-    }
 
  }
   
 
 
-
-@media screen and (min-width: 768px)  and (max-width: 1024px) {
-    .task {
+ @media screen and (min-width: 768px)  and (max-width: 1024px) {
+    .plot {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
    
     }
 
-} 
+}  
