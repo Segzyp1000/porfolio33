@@ -4,6 +4,9 @@
     grid-template-columns: repeat(2, 1fr);
     max-width: 100%;
     margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+    
   }
 
 .infopart {
@@ -60,6 +63,7 @@
     .contact {
         display: grid;
         grid-template-columns: 1fr;
+        margin-left: 5rem;
     }
 
     form {
