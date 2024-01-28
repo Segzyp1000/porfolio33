@@ -1,9 +1,8 @@
 nav {
     display: flex;
-    margin-left: 10px;
+    margin-left: 3rem;
     font-family: 'Space Grotesk', sans-serif;
     font-weight: 700;
-    justify-content: space-between;
 }
 
 .web {
@@ -17,7 +16,7 @@ a {
 ul {
     list-style: none;
     display: flex;
-    margin-left: 10rem;
+    margin-left: 4rem;
 }
 
 li {
@@ -32,9 +31,11 @@ li:hover {
 
 @media screen and (max-width: 576px) {
     nav {
-        margin-left: 25px;
+        max-width: 100%;
+        display: flex;
+        justify-content: space-between;
     }
-    li {
-        margin-left: 10px;
-    }
+
+    
+
 }

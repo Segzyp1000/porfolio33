@@ -1,44 +1,75 @@
 .project {
-    max-width: 100%;
-    margin-top: 10rem;
-    background-color: hsl(0, 71%, 7%);
-    
-    
-}
-
-
-.pro{
-    color: #fff;
-    margin-left: 2rem;
-    margin-top: 50px;
+    width: 100%; /* Take up full width of the screen */
+    padding: 10px;
     font-family: 'Space Grotesk', sans-serif;
+    background: #fff;
+    color: #3d099b;
+    margin-top: 10rem;
+    margin-left: auto; /* Center the component horizontally */
+    margin-right: auto;
+}
+ .pro{
+    margin-left: 2rem;
+    margin-bottom: 1.25rem;
 }
 
 .task {
     display: flex;
-    width: 80%;
-    margin-left: 3rem;
-    margin-top: 20px;
-    gap: 20px; 
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+    margin-left: 2rem;
+    
 }
 
+.plot {
+    display: flex;
+    gap: 30px;
+    margin-left: 5rem;
+}
+
+.assignments {
+    max-width: 100%;
+}
 
 .paragraph {
-    color: #fff;
     font-weight: bold;
-    font-family: 'Space Grotesk', sans-serif;
+
+    
 }
 
-@media screen and (max-width: 576px) {
+ @media screen and (max-width: 576px) {
+    .project {
+        margin-top: 15rem;
+        margin-left: 0; /* Remove left margin to align with edge of the screen */
+        margin-right: 0;
+    }
     .task {
-    display: flex;
-    flex-direction: column;
-    max-width: 100%;
-    margin-left: 2rem;
+        width: 100%;
+        margin-top: 3rem;
+    }
+    .plot {
+        display: flex;
+        flex-direction: column;
+        margin-left: 1.3rem;
+
+        
+    }
+    .pro {
+        font-weight: bold;
+        font-size: 25px;
     }
 
+    .paragraph {
+        width: 100%;
+    
+        
+    }
 
-}
+ }
+  
+
+
 
 @media screen and (min-width: 768px)  and (max-width: 1024px) {
     .task {

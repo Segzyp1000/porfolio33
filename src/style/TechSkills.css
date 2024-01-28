@@ -1,0 +1,30 @@
+.techSkills {
+    margin-top: 4rem;
+    position: absolute;
+    left: 0;
+}
+
+.skillssets {
+    
+    margin-left: 0.1258rem;
+}
+
+li {
+    margin-left: 0.12rem;
+}
+
+@media screen and (max-width: 576px) {
+    .techSkills {
+        margin-top: 27rem;
+    }
+
+    ul {
+        margin-left: 0.12rem;
+    }
+
+
+
+    .sta {
+        margin-left: 2rem;
+    }
+}
