@@ -1,14 +1,15 @@
 @media (width<=600px) {
     section {
-        width: 100%;
+        width: 601px;
         color: rgb(114, 255, 255);
         margin-top: 10px;
         font-family: 'Space Grotesk', sans-serif;
+        margin-left: 2rem;
 
     }
     nav {
         display: flex;
-        margin-left: 2rem;
+       
         justify-content: space-between;
         font-family: 'Space Grotesk', sans-serif;
     }
@@ -20,7 +21,7 @@
     ul {
         list-style: none;
         display: flex;
-        margin-right: 13px;
+        margin-left: 2rem;
     }
 
     li {

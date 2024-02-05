@@ -4,7 +4,7 @@
         background: #fff;
         color: #3d099b;
         margin-top: 17rem;
-        width: 765px;
+        width: 900px;
     }
 
     .task {
@@ -12,24 +12,22 @@
         flex-direction: column;
         gap: 30px;
         width: 100%;
-        margin-left: 3rem;
+        margin-left: 2rem;
+        padding-bottom: 5rem;
     }
 
     .pro h2 {
         margin-left: 2rem;
         font-weight: bold;
         margin-top: 4rem;
-        font-style: 40px;
         font-family: 'Space Grotesk', sans-serif;
     }
 
     .plot {
         display: grid;
-        grid-template-columns: 1fr;
-        
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 3rem;        
         margin-top: 1.1rem;
-        
-        margin-left: 0.5rem;
         
     }
 
@@ -39,7 +37,7 @@
     }
 
     .imgg {
-        margin-top: 3rem;
+        margin-top: 1.5rem;
     }
 }
 
@@ -57,6 +55,7 @@
         flex-direction: column;
         gap: 30px;
         margin-left: 3rem;
+        padding-bottom: 5rem;
     }
 
     .pro h2 {
@@ -100,6 +99,7 @@
         flex-direction: column;
         gap: 30px;
         margin-left: 3rem;
+        padding-bottom: 5rem;
     }
 
     .pro h2 {
@@ -143,6 +143,7 @@
     flex-direction: column;
     gap: 30px;
     margin-left: 3rem;
+    padding-bottom: 5rem;
 }
 
 .pro h2 {
