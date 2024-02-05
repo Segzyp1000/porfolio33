@@ -1,41 +1,133 @@
-nav {
-    display: flex;
-    margin-left: 3rem;
-    font-family: 'Space Grotesk', sans-serif;
-    font-weight: 700;
-}
+@media (width<=600px) {
+    section {
+        width: 100%;
+        color: rgb(114, 255, 255);
+        margin-top: 10px;
+        font-family: 'Space Grotesk', sans-serif;
 
-.web {
-    color: #72ffff;
-}
-
-a {
-    color:#fff;
-}
-
-ul {
-    list-style: none;
-    display: flex;
-    margin-left: 4rem;
-}
-
-li {
-    margin: 10px 20px;
-    color: black;  
-}
-
-li:hover {
-    color: rgb(65, 19, 204);
-    cursor: pointer;
-}
-
-@media screen and (max-width: 576px) {
+    }
     nav {
-        max-width: 100%;
         display: flex;
+        margin-left: 2rem;
         justify-content: space-between;
+        font-family: 'Space Grotesk', sans-serif;
     }
 
-    
+    a {
+        color: #fff;
+    }
 
+    ul {
+        list-style: none;
+        display: flex;
+        margin-right: 13px;
+    }
+
+    li {
+    
+        margin-left: 15px;
+    }
 }
+
+ @media (width>=768px)  {
+    section {
+        color: rgb(114, 255, 255);
+        margin-top: 20px;
+    }
+
+
+    nav {
+        display: flex;
+        margin-left: 2rem;
+        justify-content: space-between;
+        font-family: 'Space Grotesk', sans-serif;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    a {
+        color: #fff;
+    }
+
+    ul {
+        list-style: none;
+        display: flex;
+        margin-right: 35px;
+    }
+
+    li {
+        margin-left: 10px
+    } 
+   
+}  
+
+@media (width >=992px) {
+    section {
+        width: 100%;
+        color: rgb(114, 255, 255);
+        margin-top: 20px;
+    }
+    nav {
+        display: flex;
+        margin-left: 2rem;
+        justify-content: space-between;
+        font-family: 'Space Grotesk', sans-serif;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    a {
+        color: #fff;
+    }
+
+    ul {
+        list-style: none;
+        display: flex;
+        margin-right: 35px;
+        
+    
+    }
+
+    li {
+        margin-left: 10px
+    }
+}
+
+@media (width >=1200px) {
+    section {
+        width: 100%;
+        color: rgb(114, 255, 255);
+        margin-top: 20px;
+    }
+    nav {
+        display: flex;
+        margin-left: 2rem;
+        justify-content: space-between;
+        font-family: 'Space Grotesk', sans-serif;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    a {
+        color: #fff;
+    }
+
+    ul {
+        list-style: none;
+        display: flex;
+        margin-right: 35px;
+        
+    
+    }
+
+    li {
+        margin-left: 10px
+    }
+}
+

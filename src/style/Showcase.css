@@ -1,60 +1,152 @@
- .showcase{
-    display: flex;
-    width: 80%;
-    color: #72ffff;
-    font-family: 'Space Grotesk', sans-serif;
-    margin-top: 3rem;
-    margin-left: 2rem; 
-    opacity: 0;  
-}
+@media (width<=600px) {
+    .showcase {
+        width: 100%;
+        color: rgb(114, 255, 255);
+        font-family: 'Space Grotesk', sans-serif;
+        margin-top: 7rem;
 
-.ease-in {
-    animation: ease-in-animation 5s ease-in-out forwards;
+    }
+
+/* 
+.fade-in {
+    opacity: 0;
+    animation: fade-in-animation 10s ease-in-out forwards;
   }
   
-  @keyframes ease-in-animation {
+  @keyframes fade-in-animation {
     from {
       opacity: 0;
     }
     to {
       opacity: 1;
     }
-  }
+  } */
 
-
-.segzy {
-    width: 400px;
-    height: 400px;
-    margin-left: 5rem;
-}
-
-.skillset {
-    margin-top: 2rem;
-}
-
-.skills {
-    font-size: 3rem;
-}
-
-.info {
-    font-size: 1rem;
-    margin-bottom: 1.25rem;
-}
-
-.flexxy {
-    display: flex;
-    flex-direction: column;
-}
-
-
-@media screen and (max-width: 576px) {
-    .showcase {
-        max-width: 100%;
-        display: flex;
+    .easy {
+        display:flex;
         flex-direction: column;
+        margin-left: 1.0rem;
     }
 
     .segzy {
+        margin-left: 0.35rem;
+        width: 370px;
+        height: 370px;
+
+    }
+
+    .skills {
+        font-size: 2.5rem;
+        margin-bottom: 14px;
+        margin-left: 0.4rem;
+        
+    }
+
+    .skillset {
+    font-size: 1.5rem;
+    margin-left: 0.8rem;
+    }
+
+    .info {
+        font-size: 1rem;
+        margin-bottom: 1.5rem;
+        margin-left: 0.5rem;
+        
+    } 
+}  
+
+@media (width>=768px) {
+    .showcase {
+        width: 100%;
+        color: rgb(114, 255, 255);
+        font-family: 'Space Grotesk', sans-serif;
+        margin-top: 4rem;
+        justify-content: center;
+        align-items: center;
         margin-left: 2rem;
     }
+
+    .easy {
+        display:flex;
+        gap: 20px;
+    }
+
+    .segzy {
+        width: 400px;
+        height: 400px;
+        margin-right: 2rem;
+    }
+
+    .skillset {
+        margin-top: 6rem;
+        font-size: 1.5rem;
+    }
+} 
+
+@media (width>=992px) {
+    .showcase {
+        width: 80%;
+        color: rgb(114, 255, 255);
+        font-family: 'Space Grotesk', sans-serif;
+        margin-top: 4rem;
+        justify-content: center;
+        align-items: center;
+        margin-left: 2rem;
+    }
+
+    .easy {
+        display:flex;
+        gap: 30px;
+    }
+
+    .segzy {
+        width: 400px;
+        height: 400px;
+        margin-right: 4rem;
+    }
+
+    .skillset {
+        margin-top: 5rem;
+        font-size: 1.8rem;
+    }
+
+    .info {
+        margin-top: 20px;
+    }
 }
+
+@media (width>=1200px) {
+    .showcase {
+        width: 80%;
+        color: rgb(114, 255, 255);
+        font-family: 'Space Grotesk', sans-serif;
+        margin-top: 4rem;
+        justify-content: center;
+        align-items: center;
+        margin-left: 2rem;
+    }
+
+    .easy {
+        display:flex;
+        gap: 30px;
+    }
+
+    .segzy {
+        width: 400px;
+        height: 400px;
+        margin-right: 4rem;
+    }
+
+    .skillset {
+        margin-top: 5rem;
+        font-size: 1.8rem;
+    }
+
+    .info {
+        margin-top: 20px;
+    }
+}
+
+
+
+   
