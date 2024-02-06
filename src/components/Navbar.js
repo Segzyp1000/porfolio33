@@ -6,7 +6,7 @@ const Navbar = () => {
     <section>
       <nav>
         <div className='headed'>
-        <h1>Segun</h1>
+        <h1 className='heads'>Segun</h1>
         </div>
         
         <div className='listed'>

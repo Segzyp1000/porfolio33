@@ -1,4 +1,4 @@
-@media (width<=600px) {
+@media (width <=767px) {
     .showcase {
         width: 601px;
         color: rgb(114, 255, 255);
