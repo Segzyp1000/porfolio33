@@ -8,12 +8,12 @@ function TechSkills() {
         </div>
         <div className='skillssets'>
         <ul className='cap'> 
-        <li><button>HTML</button></li>
-        <li><button>CSS</button></li>
-        <li><button>JavaScript</button></li>
-        <li><button>Git & Github</button></li>
-        <li><button>Bootstrap</button></li>
-        <li><button>React</button></li>
+        <li className='skt'><button>HTML</button></li>
+        <li className='skt'><button>CSS</button></li>
+        <li className='skt'><button>JavaScript</button></li>
+        <li className='skt'><button>Git & Github</button></li>
+        <li className='skt'><button>Bootstrap</button></li>
+        <li className='skt'><button>React</button></li>
         </ul>
         </div>
         </div>
