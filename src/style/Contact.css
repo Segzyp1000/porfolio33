@@ -23,7 +23,7 @@
 
 .infopart {
     margin-left: 2rem;
-    width: 70%;
+    width: 100%;
     margin-top: 90px;
     color: #72ffff;
 }
@@ -34,7 +34,7 @@
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-left: 70px;
-    width:50%;
+    width:100%;
     margin-top: 70px;
   }
 
